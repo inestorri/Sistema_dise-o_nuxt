@@ -1,0 +1,19 @@
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities; 
+
+body {
+    @apply bg-gray-50;
+}
+
+@layer components {
+    .btn {
+        @apply bg-[hsl(164,82%,39%)] text-white px-3 py-2 rounded-md text-sm text-white;
+    }
+    .tl-main{
+        @apply text-6xl mt-10 font-semibold;
+    }
+    .parrafo {
+        @apply bg-gray-200 rounded-lg text-xl p-6 max-w-xl mx-4;
+    }
+}
